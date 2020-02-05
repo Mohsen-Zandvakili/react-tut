@@ -7,8 +7,8 @@ const Greeting = (props) => {
   return (
     <div>
       Hello world from a React project!
-      <p> Hello { props.name }. </p>
-      <p> {`Hello ${props.name}, you are ${props.age} years old.`} </p>
+      <h2> Hello { props.name }. </h2>
+      <h3> {`Hello ${props.name}, you are ${props.age} years old.`} </h3>
     </div>
   );
 }
